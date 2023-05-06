@@ -1,7 +1,7 @@
 # QuarkLite
 
 Overview:
-基于QuarkGO最最简单的应用布局，可用于开发工具类应用
+QuarkGO最最简单的应用布局，可用于开发工具类应用
 
 Install:
 ``` bash
