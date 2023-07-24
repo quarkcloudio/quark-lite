@@ -1,22 +1,19 @@
 package resource
 
 import (
-	"github.com/quarkcms/quark-go/pkg/app/handler/admin/actions"
-	"github.com/quarkcms/quark-go/pkg/app/handler/admin/searches"
-	"github.com/quarkcms/quark-go/pkg/builder"
-	"github.com/quarkcms/quark-go/pkg/builder/template/adminresource"
+	"github.com/quarkcms/quark-go/v2/pkg/app/admin/service/actions"
+	"github.com/quarkcms/quark-go/v2/pkg/app/admin/service/searches"
+	"github.com/quarkcms/quark-go/v2/pkg/app/admin/template/resource"
+	"github.com/quarkcms/quark-go/v2/pkg/builder"
 	"github.com/quarkcms/quark-lite/model"
 )
 
 type Demo struct {
-	adminresource.Template
+	resource.Template
 }
 
 // 初始化
-func (p *Demo) Init() interface{} {
-
-	// 初始化模板
-	p.TemplateInit()
+func (p *Demo) Init(ctx *builder.Context) interface{} {
 
 	// 标题
 	p.Title = "Demo"
@@ -31,7 +28,7 @@ func (p *Demo) Init() interface{} {
 }
 
 func (p *Demo) Fields(ctx *builder.Context) []interface{} {
-	field := &adminresource.Field{}
+	field := &resource.Field{}
 
 	return []interface{}{
 		field.ID("id", "ID"),

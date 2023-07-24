@@ -1,8 +1,8 @@
 package metric
 
 import (
-	"github.com/quarkcms/quark-go/pkg/builder/template/admindashboard/metrics"
-	"github.com/quarkcms/quark-go/pkg/component/admin/descriptions"
+	"github.com/quarkcms/quark-go/v2/pkg/app/admin/component/descriptions"
+	"github.com/quarkcms/quark-go/v2/pkg/app/admin/template/dashboard/metrics"
 )
 
 type TeamInfo struct {
@@ -12,7 +12,7 @@ type TeamInfo struct {
 // 初始化
 func (p *TeamInfo) Init() *TeamInfo {
 	p.Title = "团队信息"
-	p.Col = 24
+	p.Col = 12
 
 	return p
 }
@@ -26,7 +26,7 @@ func (p *TeamInfo) Calculate() *descriptions.Component {
 		field.Text("联系方式").SetValue("dai_hang_love@126.com"),
 		field.Text("官方网址").SetValue("<a href='https://www.quarkcms.com' target='_blank'>www.quarkcms.com</a>"),
 		field.Text("文档地址").SetValue("<a href='https://www.quarkcms.com' target='_blank'>查看文档</a>"),
-		field.Text("BUG反馈").SetValue("<a href='https://github.com/quarkcms/quark-lite/issues' target='_blank'>提交BUG</a>"),
-		field.Text("代码仓储").SetValue("<a href='https://github.com/quarkcms/quark-lite' target='_blank'>Github</a>"),
+		field.Text("BUG反馈").SetValue("<a href='https://github.com/quarkcms/quark-go/v2/issues' target='_blank'>提交BUG</a>"),
+		field.Text("代码仓储").SetValue("<a href='https://github.com/quarkcms/quark-go/v2' target='_blank'>Github</a>"),
 	})
 }

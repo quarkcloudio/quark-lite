@@ -1,34 +1,31 @@
 package dashboard
 
 import (
-	"github.com/quarkcms/quark-go/pkg/builder"
-	"github.com/quarkcms/quark-go/pkg/builder/template/admindashboard"
+	"github.com/quarkcms/quark-go/v2/pkg/app/admin/template/dashboard"
+	"github.com/quarkcms/quark-go/v2/pkg/builder"
 	"github.com/quarkcms/quark-lite/metric"
 )
 
 type Index struct {
-	admindashboard.Template
+	dashboard.Template
 }
 
 // 初始化
-func (p *Index) Init() interface{} {
-
-	// 初始化模板
-	p.TemplateInit()
-
+func (p *Index) Init(ctx *builder.Context) interface{} {
 	p.Title = "仪表盘"
 
 	return p
 }
 
 // 内容
-func (p *Index) Cards(ctx *builder.Context) interface{} {
+func (p *Index) Cards(ctx *builder.Context) []interface{} {
 
 	return []any{
 		&metric.TotalAdmin{},
 		&metric.TotalLog{},
 		&metric.TotalPicture{},
 		&metric.TotalFile{},
+		&metric.SystemInfo{},
 		&metric.TeamInfo{},
 	}
 }
