@@ -41,25 +41,23 @@ func (p *Demo) Fields(ctx *builder.Context) []interface{} {
 
 // 搜索
 func (p *Demo) Searches(ctx *builder.Context) []interface{} {
-
 	return []interface{}{
-		(&searches.Input{}).Init("name", "名称"),
+		searches.Input("name", "名称"),
 	}
 }
 
 // 行为
 func (p *Demo) Actions(ctx *builder.Context) []interface{} {
-
 	return []interface{}{
-		(&actions.CreateLink{}).Init(p.Title),
-		(&actions.Delete{}).Init("批量删除"),
-		(&actions.Disable{}).Init("批量禁用"),
-		(&actions.Enable{}).Init("批量启用"),
-		(&actions.EditLink{}).Init("编辑"),
-		(&actions.Delete{}).Init("删除"),
-		(&actions.FormSubmit{}).Init(),
-		(&actions.FormReset{}).Init(),
-		(&actions.FormBack{}).Init(),
-		(&actions.FormExtraBack{}).Init(),
+		actions.CreateLink(),
+		actions.BatchDelete(),
+		actions.BatchDisable(),
+		actions.BatchEnable(),
+		actions.EditLink(),
+		actions.Delete(),
+		actions.FormSubmit(),
+		actions.FormReset(),
+		actions.FormBack(),
+		actions.FormExtraBack(),
 	}
 }

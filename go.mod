@@ -3,7 +3,7 @@ module github.com/quarkcms/quark-lite
 go 1.19
 
 require (
-	github.com/quarkcms/quark-go/v2 v2.0.2
+	github.com/quarkcms/quark-go/v2 v2.1.1
 	gorm.io/gorm v1.25.2
 )
 
