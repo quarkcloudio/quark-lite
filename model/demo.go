@@ -28,8 +28,8 @@ func (m *Demo) Seeder() {
 
 	// 创建菜单
 	menuSeeders := []*appmodel.Menu{
-		{Id: 18, Name: "演示管理", GuardName: "admin", Icon: "icon-book", Type: 1, Pid: 0, Sort: 0, Path: "/demo", Show: 1, Status: 1},
-		{Id: 19, Name: "演示列表", GuardName: "admin", Icon: "", Type: 2, Pid: 18, Sort: 0, Path: "/api/admin/demo/index", Show: 1, Status: 1},
+		{Id: 18, Name: "演示管理", GuardName: "admin", Icon: "icon-book", Type: 1, Pid: 0, Sort: 0, Path: "/demo", Show: 1, IsEngine: 0, IsLink: 0, Status: 1},
+		{Id: 19, Name: "演示列表", GuardName: "admin", Icon: "", Type: 2, Pid: 18, Sort: 0, Path: "/api/admin/demo/index", Show: 1, IsEngine: 1, IsLink: 0, Status: 1},
 	}
 	db.Client.Create(&menuSeeders)
 }
