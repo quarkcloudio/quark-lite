@@ -1,11 +1,11 @@
 package resource
 
 import (
-	"github.com/quarkcms/quark-go/v2/pkg/app/admin/service/actions"
-	"github.com/quarkcms/quark-go/v2/pkg/app/admin/service/searches"
-	"github.com/quarkcms/quark-go/v2/pkg/app/admin/template/resource"
-	"github.com/quarkcms/quark-go/v2/pkg/builder"
-	"github.com/quarkcms/quark-lite/model"
+	"github.com/quarkcloudio/quark-go/v2/pkg/app/admin/service/actions"
+	"github.com/quarkcloudio/quark-go/v2/pkg/app/admin/service/searches"
+	"github.com/quarkcloudio/quark-go/v2/pkg/app/admin/template/resource"
+	"github.com/quarkcloudio/quark-go/v2/pkg/builder"
+	"github.com/quarkcloudio/quark-lite/model"
 )
 
 type Demo struct {

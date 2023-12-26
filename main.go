@@ -2,16 +2,16 @@ package main
 
 import (
 	"github.com/glebarez/sqlite"
-	"github.com/quarkcms/quark-go/v2/pkg/app/admin/install"
-	"github.com/quarkcms/quark-go/v2/pkg/app/admin/middleware"
-	"github.com/quarkcms/quark-go/v2/pkg/app/admin/service"
-	"github.com/quarkcms/quark-go/v2/pkg/builder"
-	"github.com/quarkcms/quark-go/v2/pkg/dal/db"
-	"github.com/quarkcms/quark-lite/dashboard"
-	"github.com/quarkcms/quark-lite/layout"
-	"github.com/quarkcms/quark-lite/login"
-	"github.com/quarkcms/quark-lite/model"
-	"github.com/quarkcms/quark-lite/resource"
+	"github.com/quarkcloudio/quark-go/v2/pkg/app/admin/install"
+	"github.com/quarkcloudio/quark-go/v2/pkg/app/admin/middleware"
+	"github.com/quarkcloudio/quark-go/v2/pkg/app/admin/service"
+	"github.com/quarkcloudio/quark-go/v2/pkg/builder"
+	"github.com/quarkcloudio/quark-go/v2/pkg/dal/db"
+	"github.com/quarkcloudio/quark-lite/dashboard"
+	"github.com/quarkcloudio/quark-lite/layout"
+	"github.com/quarkcloudio/quark-lite/login"
+	"github.com/quarkcloudio/quark-lite/model"
+	"github.com/quarkcloudio/quark-lite/resource"
 	"gorm.io/gorm"
 )
 

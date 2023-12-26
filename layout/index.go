@@ -3,8 +3,8 @@ package layout
 import (
 	"time"
 
-	"github.com/quarkcms/quark-go/v2/pkg/app/admin/template/layout"
-	"github.com/quarkcms/quark-go/v2/pkg/builder"
+	"github.com/quarkcloudio/quark-go/v2/pkg/app/admin/template/layout"
+	"github.com/quarkcloudio/quark-go/v2/pkg/builder"
 )
 
 type Index struct {
@@ -68,7 +68,7 @@ func (p *Index) Init(ctx *builder.Context) interface{} {
 		{
 			"key":   "3",
 			"title": "Github",
-			"href":  "https://github.com/quarkcms",
+			"href":  "https://github.com/quarkcloudio",
 		},
 	}
 

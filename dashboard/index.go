@@ -1,9 +1,9 @@
 package dashboard
 
 import (
-	"github.com/quarkcms/quark-go/v2/pkg/app/admin/template/dashboard"
-	"github.com/quarkcms/quark-go/v2/pkg/builder"
-	"github.com/quarkcms/quark-lite/metric"
+	"github.com/quarkcloudio/quark-go/v2/pkg/app/admin/template/dashboard"
+	"github.com/quarkcloudio/quark-go/v2/pkg/builder"
+	"github.com/quarkcloudio/quark-lite/metric"
 )
 
 type Index struct {
