@@ -58,7 +58,7 @@ func (p *Index) Init(ctx *builder.Context) interface{} {
 		{
 			"key":   "1",
 			"title": "Quark",
-			"href":  "http://www.quarkcms.com/",
+			"href":  "http://quarkcloud.io/",
 		},
 		{
 			"key":   "2",
