@@ -3,7 +3,7 @@ module github.com/quarkcloudio/quark-lite
 go 1.19
 
 require (
-	github.com/quarkcloudio/quark-go/v2 v2.2.0
+	github.com/quarkcloudio/quark-go/v2 v2.3.2
 	gorm.io/gorm v1.25.2
 )
 
@@ -11,6 +11,7 @@ require (
 	github.com/Knetic/govaluate v3.0.1-0.20171022003610-9aa49832a739+incompatible // indirect
 	github.com/casbin/casbin/v2 v2.71.1 // indirect
 	github.com/casbin/gorm-adapter/v3 v3.18.0 // indirect
+	github.com/casbin/redis-watcher/v2 v2.5.0 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.2 // indirect
 	github.com/glebarez/go-sqlite v1.21.2 // indirect
@@ -35,12 +36,12 @@ require (
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
+	github.com/redis/go-redis/v9 v9.0.3 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
 	github.com/rogpeppe/go-internal v1.6.1 // indirect
 	github.com/rs/xid v1.5.0 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/stretchr/testify v1.8.2 // indirect
-	github.com/xbmlz/gct v0.0.0-20220707064702-998631a80a6a // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gorm.io/driver/mysql v1.5.1 // indirect
 	gorm.io/driver/postgres v1.5.2 // indirect
@@ -61,7 +62,6 @@ require (
 	github.com/glebarez/sqlite v1.9.0
 	github.com/go-basic/uuid v1.0.0 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
-	github.com/go-redis/redis/v8 v8.11.5 // indirect
 	github.com/gobeam/stringy v0.0.6 // indirect
 	github.com/golang-jwt/jwt/v4 v4.5.0
 	github.com/jinzhu/inflection v1.0.0 // indirect
