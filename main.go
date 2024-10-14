@@ -7,11 +7,11 @@ import (
 	"github.com/quarkcloudio/quark-go/v3/pkg/app/admin/service"
 	"github.com/quarkcloudio/quark-go/v3/pkg/builder"
 	"github.com/quarkcloudio/quark-go/v3/pkg/dal/db"
-	"github.com/quarkcloudio/quark-lite/dashboard"
-	"github.com/quarkcloudio/quark-lite/layout"
-	"github.com/quarkcloudio/quark-lite/login"
-	"github.com/quarkcloudio/quark-lite/model"
-	"github.com/quarkcloudio/quark-lite/resource"
+	"github.com/quarkcloudio/quark-lite/v2/dashboard"
+	"github.com/quarkcloudio/quark-lite/v2/layout"
+	"github.com/quarkcloudio/quark-lite/v2/login"
+	"github.com/quarkcloudio/quark-lite/v2/model"
+	"github.com/quarkcloudio/quark-lite/v2/resource"
 	"gorm.io/gorm"
 )
 

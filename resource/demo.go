@@ -5,7 +5,7 @@ import (
 	"github.com/quarkcloudio/quark-go/v3/pkg/app/admin/service/searches"
 	"github.com/quarkcloudio/quark-go/v3/pkg/app/admin/template/resource"
 	"github.com/quarkcloudio/quark-go/v3/pkg/builder"
-	"github.com/quarkcloudio/quark-lite/model"
+	"github.com/quarkcloudio/quark-lite/v2/model"
 )
 
 type Demo struct {

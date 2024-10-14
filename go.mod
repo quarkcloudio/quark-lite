@@ -1,4 +1,4 @@
-module github.com/quarkcloudio/quark-lite
+module github.com/quarkcloudio/quark-lite/v2
 
 go 1.19
 
