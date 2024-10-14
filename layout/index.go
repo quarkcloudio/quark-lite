@@ -3,8 +3,8 @@ package layout
 import (
 	"time"
 
-	"github.com/quarkcloudio/quark-go/v2/pkg/app/admin/template/layout"
-	"github.com/quarkcloudio/quark-go/v2/pkg/builder"
+	"github.com/quarkcloudio/quark-go/v3/pkg/app/admin/template/layout"
+	"github.com/quarkcloudio/quark-go/v3/pkg/builder"
 )
 
 type Index struct {

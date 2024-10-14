@@ -2,11 +2,11 @@ package main
 
 import (
 	"github.com/glebarez/sqlite"
-	"github.com/quarkcloudio/quark-go/v2/pkg/app/admin/install"
-	"github.com/quarkcloudio/quark-go/v2/pkg/app/admin/middleware"
-	"github.com/quarkcloudio/quark-go/v2/pkg/app/admin/service"
-	"github.com/quarkcloudio/quark-go/v2/pkg/builder"
-	"github.com/quarkcloudio/quark-go/v2/pkg/dal/db"
+	"github.com/quarkcloudio/quark-go/v3/pkg/app/admin/install"
+	"github.com/quarkcloudio/quark-go/v3/pkg/app/admin/middleware"
+	"github.com/quarkcloudio/quark-go/v3/pkg/app/admin/service"
+	"github.com/quarkcloudio/quark-go/v3/pkg/builder"
+	"github.com/quarkcloudio/quark-go/v3/pkg/dal/db"
 	"github.com/quarkcloudio/quark-lite/dashboard"
 	"github.com/quarkcloudio/quark-lite/layout"
 	"github.com/quarkcloudio/quark-lite/login"
